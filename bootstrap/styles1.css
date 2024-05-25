@@ -1,0 +1,123 @@
+.carousel {
+            margin: 0 auto;
+            margin-bottom: 20px;
+}
+#content{
+    display:inline-block;
+    width:500px;
+    margin-left:20px;
+    
+}
+.container1{
+    padding:20px;
+    display:inline-block;
+}
+.container2{
+    margin-right:10px;
+    padding:20px;
+}
+.table{
+    margin-left:50px;
+    margin-right: 50px;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+#form-item{
+    font-family: 'Courier New', Courier, monospace;
+    border: 0px solid black;
+    font-size: 25px;
+    justify-content: space-between;
+    box-shadow: 30px 20px 10px black;
+   
+}
+.form-items{
+    padding:5px;
+    margin-left: 30px;
+    margin-right: 10px;
+    display:inline;
+    justify-content: space-around;
+}
+.btn{
+    margin:10px;
+}
+.container mt-3{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+ .rating {
+            unicode-bidi: bidi-override;
+            direction: ltr;
+            text-align: center;
+        }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label {
+            display: inline-block;
+            padding: 5px;
+            font-size: 30px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .rating label:hover,
+        .rating label:hover ~ label {
+            color: gold;
+        }
+
+        .rating input:checked ~ label {
+            color: gold;
+        }
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container .container {
+    width: 48%; 
+    margin-bottom: 20px;
+    box-shadow: 30px 20px 10px black;
+}
+
+.image-container .container img {
+    width:550px;
+    height: 250px;
+    object-fit: cover; 
+    padding:20px;
+}
+.image-container .container .btn {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 230px;
+}
+.container1 {
+  width: 60%; 
+  float: left; 
+ 
+}
+h4 {
+   padding-left: 190px;
+}
+.para{
+    padding-left: 190px; 
+}
+
+.container2 {
+  width: 40%; 
+  float: right; 
+}
+.navbar{
+    padding:100%;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto; 
+}
+
+
+
